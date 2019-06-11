@@ -1,53 +1,61 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28729.10
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebrtcCommon", "WebrtcCommon\WebrtcCommon.vcxproj", "{0CF32676-A934-453B-9D67-E28B80FD3114}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDKTest", "SDKTest\SDKTest.vcxproj", "{C5E43985-10EF-4D89-8CB9-8BDE9CB69D1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebrtcSDK_NET", "WebrtcSDK_NET\WebrtcSDK_NET.csproj", "{03473574-8029-4C92-8B64-4FCAA4128970}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CF32676-A934-453B-9D67-E28B80FD3114}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{0CF32676-A934-453B-9D67-E28B80FD3114}.Debug|x64.ActiveCfg = Debug|x64
 		{0CF32676-A934-453B-9D67-E28B80FD3114}.Debug|x64.Build.0 = Debug|x64
 		{0CF32676-A934-453B-9D67-E28B80FD3114}.Debug|x86.ActiveCfg = Debug|Win32
 		{0CF32676-A934-453B-9D67-E28B80FD3114}.Debug|x86.Build.0 = Debug|Win32
+		{0CF32676-A934-453B-9D67-E28B80FD3114}.Release|Any CPU.ActiveCfg = Release|Win32
 		{0CF32676-A934-453B-9D67-E28B80FD3114}.Release|x64.ActiveCfg = Release|x64
 		{0CF32676-A934-453B-9D67-E28B80FD3114}.Release|x64.Build.0 = Release|x64
 		{0CF32676-A934-453B-9D67-E28B80FD3114}.Release|x86.ActiveCfg = Release|Win32
 		{0CF32676-A934-453B-9D67-E28B80FD3114}.Release|x86.Build.0 = Release|Win32
+		{C5E43985-10EF-4D89-8CB9-8BDE9CB69D1C}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{C5E43985-10EF-4D89-8CB9-8BDE9CB69D1C}.Debug|x64.ActiveCfg = Debug|x64
 		{C5E43985-10EF-4D89-8CB9-8BDE9CB69D1C}.Debug|x64.Build.0 = Debug|x64
 		{C5E43985-10EF-4D89-8CB9-8BDE9CB69D1C}.Debug|x86.ActiveCfg = Debug|Win32
 		{C5E43985-10EF-4D89-8CB9-8BDE9CB69D1C}.Debug|x86.Build.0 = Debug|Win32
+		{C5E43985-10EF-4D89-8CB9-8BDE9CB69D1C}.Release|Any CPU.ActiveCfg = Release|Win32
 		{C5E43985-10EF-4D89-8CB9-8BDE9CB69D1C}.Release|x64.ActiveCfg = Release|x64
 		{C5E43985-10EF-4D89-8CB9-8BDE9CB69D1C}.Release|x64.Build.0 = Release|x64
 		{C5E43985-10EF-4D89-8CB9-8BDE9CB69D1C}.Release|x86.ActiveCfg = Release|Win32
 		{C5E43985-10EF-4D89-8CB9-8BDE9CB69D1C}.Release|x86.Build.0 = Release|Win32
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Debug|x64.Build.0 = Debug|Any CPU
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Debug|x86.Build.0 = Debug|Any CPU
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Release|x64.ActiveCfg = Release|Any CPU
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Release|x64.Build.0 = Release|Any CPU
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Release|x86.ActiveCfg = Release|Any CPU
+		{03473574-8029-4C92-8B64-4FCAA4128970}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BC43EB0-5AAC-4161-AC12-37749798BA46}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://lylprojects.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = WebrtcCommon\\WebrtcCommon.vcxproj
-		SccProjectName1 = WebrtcCommon
-		SccLocalPath1 = WebrtcCommon
-		SccProjectUniqueName2 = SDKTest\\SDKTest.vcxproj
-		SccProjectName2 = SDKTest
-		SccLocalPath2 = SDKTest
 	EndGlobalSection
 EndGlobal
