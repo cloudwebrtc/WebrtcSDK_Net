@@ -18,7 +18,7 @@ using namespace rtc;
 
  
 
-PB_API bool Test()
+EX_API bool Test()
 { 
 	return true;
 }
@@ -26,7 +26,7 @@ PB_API bool Test()
  
 
 
-PB_API bool StartConnect(HBITMAP* localImgControl, HBITMAP* remoteImgControl)
+EX_API bool StartConnect(HBITMAP* localImgControl, HBITMAP* remoteImgControl)
 {   
 	MainWnd wnd(localImgControl, remoteImgControl);
 	PeerConnectionClient client;

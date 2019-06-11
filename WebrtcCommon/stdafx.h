@@ -10,8 +10,8 @@
 #define WIN32_LEAN_AND_MEAN             // 从 Windows 头文件中排除极少使用的内容
 
 
-#ifndef PB_API
-#define PB_API  extern "C" __declspec(dllexport)
+#ifndef EX_API
+#define EX_API  extern "C" __declspec(dllexport)
 #endif // !PB_API
 // Windows 头文件 
 #include <Windows.h>  
