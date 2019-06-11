@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="thirtydlls">
+      <UniqueIdentifier>{d2d430d9-fbb8-4fb4-ba39-efe417fe8991}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDKTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="thirtydlls\4758cca.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\aep.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\atalla.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\avcodec-56.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\avdevice-56.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\avfilter-5.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\avformat-56.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\avutil-54.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\capi.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\chil.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\cswift.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\fdk-aac-1.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\gmp.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\gost.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\libeay32.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\libgcc_s_dw2-1.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\libiconv-2.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\nuron.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\padlock.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\pthreadGC-3.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\ssleay32.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\sureware.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\swresample-1.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\swscale-3.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="thirtydlls\ubsec.dll">
+      <Filter>thirtydlls</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
