@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/WebrtcOpenSDK/v15
+/WebrtcCommon/Debug
+/WebrtcCommon/Release
+/WebrtcSDK_NET/obj/Release/netstandard2.0
